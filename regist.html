@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/design.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="regform">
+    <h1>Registration Form</h1>
+  </div>
+  <div class="main">
+    <form action="">
+      <div id="name">
+        <h2 class="name">Name</h2>
+        <input class="firstname" type="text" name="first_name"><br>
+        <label class="firstlabel">First name</label>
+        <input class="lastname" type="text" name="last_name">
+        <label class="lastlabel">Last name</label>
+      </div>
+      <h2 class="name">Company</h2>
+      <input class="Company" type=" text" name="Company">
+
+      <h2 class="name">Email</h2>
+      <input class="email" type="text" name="email" required>
+
+      <h2 class="name">Phone</h2>
+      <input class="code" type="text" name="area_code">
+      <label class="area_code">Area Code</label>
+      <input class="number" type="text" name="Phone">
+      <label class="phone-number">Phone Number</label>
+
+      <h2 class="name">Subject</h2>
+      <select name="subject" class="option">
+        <optgroup label="Subjects">
+          <option value="volvo">Selenium</option>
+          <option value="saab">Java</option>
+          <option value="mercedes">HTML</option>
+          <option value="audi">CSS</option>
+        </optgroup>
+        
+      </select>
+
+      <h2 id="coustomer">Are you sure you want to proceed?</h2>
+      <input class="radio-one" type="radio" checked="checked" name="">
+      <span class="checkmark"></span>
+      Yes
+      </label>
+      <input class="radio-two" type="radio" checked="checked" name="">
+      <span class="checkmark"></span>
+      No
+      </label>
+      <br>
+      <button type="submit">Register</button>
+    </form>
+  </div>
+</body>
+
+</html>
